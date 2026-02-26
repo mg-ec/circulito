@@ -1,0 +1,93 @@
+div.keanu{
+  background-color: pink;
+  width: 400px;
+  height: 400px;
+  border-radius:50%;
+  position: relative;
+  top: 180px;
+  left: 500px;
+    animation-name: keanu;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes keanu{
+  0%{
+    background-color: pink;
+    top: 180px;
+    left: 500px;
+  }
+  50%{
+    background-color: orange;
+    top: 2px;
+    left: 750px;
+  }
+  100%{
+    background-color: pink;
+    top: 180px;
+    left: 1000px;
+  }
+}
+
+div.jd{
+  background-color: green;
+  width: 400px;
+  height: 400px;
+  border-radius:50%;
+  position: relative;
+  top: 180px;
+  left: 500px;
+    animation-name: jd;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes keanu{
+  0%{
+    background-color: pink;
+    top: 180px;
+    left: 500px;
+  }
+  50%{
+    background-color: orange;
+    top: 2px;
+    left: 750px;
+  }
+  100%{
+    background-color: red;
+    top: 180px;
+    left: 1000px;
+  }
+}
+
+@keyframes jd{
+  0%{
+    background-color: green;
+    top: 180px;
+    left: 500px;
+  }
+  50%{
+    background-color: blue;
+    top: 2px;
+    left: 750px;
+  }
+  100%{
+    background-color: purple;
+    top: 180px;
+    left: 1000px;
+  }
+}
+
+p.keanu{
+  text-align:center;
+  padding-top: 150px;
+  font-size: 50px;
+  color: white;
+}
+
+p.jd{
+  text-align:center;
+  padding-top:150px;
+  color: white;
+  font-size: 50px;
+}
